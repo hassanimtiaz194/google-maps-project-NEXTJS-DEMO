@@ -1,0 +1,25 @@
+.pac-container {
+  z-index: 10000 !important;
+}
+.pac-logo::after {
+  background-image: none !important;
+}
+#infoWindowContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#avatar {
+  width: 50px; /* Set the width of the avatar */
+  height: 50px; /* Set the height of the avatar */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image covers the element */
+  border: 2px solid #ccc; /* Optional border */
+}
+.gm-style-iw-chr {
+  height: 3 0px;
+}
+
+#infoLink {
+  color: #0078a8 !important;
+}

@@ -1,0 +1,53 @@
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+}
+
+.mapButtonContainer {
+  position: absolute;
+  right: 0;
+  margin-top: -90px;
+  padding-right: 50px;
+}
+
+.mapMenuButton {
+  background: linear-gradient(150deg, #3b82f6, #ec4899);
+  padding: 0;
+  height: 2.75rem !important;
+  width: 2.75rem !important;
+  border-radius: 16px !important;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mapMenuButton:hover {
+  opacity: 0.5;
+  background: linear-gradient(150deg, #3b82f6, #ec4899) !important;
+}
+
+.modallabel {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-weight: 500;
+}
+.modalSublabel {
+  font-size: 0.775rem;
+  line-height: 1.25rem;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-weight: 450;
+  color: #7a7a82;
+}
+.modelContainer {
+  border-radius: 16px !important;
+}
+
+.menuItem {
+  border-radius: 10px !important;
+  background-color: #D4D4D8;
+}
+
+
